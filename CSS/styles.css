@@ -1,0 +1,174 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFF1D0;
+}
+header{
+    width: 100%; 
+    background: #fff;   
+
+}
+#nav-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#nav-title{
+    font-size: 36px;
+}
+#nav_list{
+    display: flex;
+    flex-direction: row;
+   list-style: none;
+   gap: 228px;
+   padding-top: 20px;
+   padding-bottom: 15px;
+   font-size: 24px;
+}
+.nav-item a, .login a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
+
+
+.login a{
+    background-color: #F0C808;
+    padding: 7px 15px 7px 15px ;
+    border-radius: 5px;
+}
+.login a:hover{
+    color: #F0C808;
+    background: #000;
+    transition: 0.3s;
+}
+
+.conteudo1{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 50px;
+}
+h3{
+    color: #F0C808;
+    font-size: 36px;
+
+}
+#noivap{
+    font-size: 24px;
+}
+
+
+
+
+
+
+img{
+    width:240px ;
+    height: 376px; 
+}
+h1{
+    font-size: 32px;
+}
+
+
+   
+
+.title1{
+    font-size: 96px;
+}
+.title2{
+    font-size: 48px;
+}
+#text{
+    font-size: 50px;
+        font-family: "Just Another Hand", cursive;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 48px; 
+        padding-top: 20px;
+    
+}
+.livros{
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+.divh4{
+    padding-top: 20px;
+    font-weight: 200;
+}
+.p4{ font-size: 20px;
+    
+}
+
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+ table{
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+ }
+ table td h5{
+    font-size: 30px;
+ }
+ table td{
+    font-size: 20px;
+    padding: 5px;
+ }
+ table td button{
+    font-size: 25px;
+    border: none;
+    font-weight: bold;
+    padding: 6px 20px 6px 20px;
+    color: #086788;
+    background-color: #F0C808;
+    border-radius: 10px;
+ }
+ table td button:hover{
+    cursor: pointer;
+ }
+ footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    
+
+ }
+ #pedro{
+    font-size: 24px;
+ }
+ .icones{
+    padding-top: 18px;
+   
+    
+ }
+ .fa-brands{
+    font-size: 30px;
+    padding: 20px;
+   
+ }
+ .fa-brands:hover{
+    cursor: pointer;
+    opacity: 0.8;
+ }
+ 
+
+
+
+
+
+ 
